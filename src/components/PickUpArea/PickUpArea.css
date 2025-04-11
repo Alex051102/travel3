@@ -1,0 +1,343 @@
+.pick-up-area{
+    background-color: white;
+    border-radius: 26px;
+    position: relative;
+}
+.pick-up-area__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+    padding: 15px 15px;
+}
+.pick-up-area__hotel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pick-up-area__item{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid grey;
+    
+}
+
+.pick-up-area__item-container{
+    padding-left:16px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.pick-up-area__send{
+    border-left: none;
+}
+.pick-up-area__item-no-choice{
+    color: #A1A1A1;
+}
+.pick-up-area__item-choice-title{
+    font-size: 11px;
+    color: #A1A1A1;
+}
+
+input[type="checkbox"]{
+  accent-color: #C56FFF;
+  width: 20px;
+  height: 20px;
+}
+.pick-up-area__sub-country{
+    display: none;
+    position: absolute;
+    top: 90px;
+    
+   border-radius: 20px;
+    background-color: white;
+}
+
+
+
+[id='country']:checked ~ .pick-up-area__sub-country{
+    top:90px;
+    opacity: 1;
+    
+    transition: top 0.5s;
+}
+.pick-up-area__sub-country--open{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+.pick-up-area__sub-country-main{
+    display: flex;
+    gap: 45px;
+    height: 400px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 25px;
+}
+.pick-up-area__sub-country-popular,.pick-up-area__sub-country-all{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pick-up-area__sub-country-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pick-up-area__sub-country-item{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.pick-up-area__sub-country-actions{
+    border-top: 1px solid grey;
+}
+.pick-up-area__sub-country-actions-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+}
+.pick-up-area__sub-country-actions-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pick-up-area__sub-calendar{
+    position: absolute;
+    top:80px;
+    left: 20%;
+    display: none;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+.pick-up-area__sub-calendar-dates{
+   display: flex;
+   gap: 20px;
+   padding: 20px;
+   
+
+}
+.pick-up-area__sub-calendar-month{
+    display: flex;
+    justify-content: center;
+}
+.pick-up-area__sub-calendar-main{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.pick-up-area__sub-calendar-days{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.pick-up-area__sub-calendar-weekdays{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+    gap: 25px;
+}
+.pick-up-area__sub-calendar-weekday{
+    display: flex;
+    justify-content: center;
+   
+}
+.pick-up-area__sub-calendar-numbers{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+.pick-up-area__sub-calendar-number{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+[id='calendar']:checked ~ .pick-up-area__sub-calendar{
+    top:90px;
+    
+    opacity: 1;
+   
+    transition: top 0.5s;
+}
+.pick-up-area__sub-calendar--open{
+    display: block;
+}
+
+.green{
+    background-color: green;
+}
+.pick-up-area__sub-how-days{
+   display: none;
+    position: absolute;
+    left: 40%;
+    top: 80px;
+    background-color: white;
+    border-radius: 12px;
+}
+.pick-up-area__sub-how-days-inputs-container{
+    display: flex;
+    gap: 10px;
+    padding: 40px 10px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.pick-up-area__sub-how-days-input{
+    width: 100px;
+    height: 20px;
+}
+
+[id='nights']:checked ~ .pick-up-area__sub-how-days{
+    
+    top: 90px;
+    opacity: 1;
+   
+    transition: top 0.5s;
+}
+.pick-up-area__sub-how-days--open{
+    display: flex;
+    
+}
+.error{
+    height: 26px;
+    font-size: 11px;
+    color: red;
+    text-align: center;
+}
+.pick-up-area__sub-people{
+    position: absolute;
+   display: none;
+    top: 80px;
+    left: 60%;
+    background-color: white;
+    border-radius: 15px;
+}
+.pick-up-area__sub-people-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.pick-up-area__sub-people-main{
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pick-up-area__sub-people-category{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.pick-up-area__sub-people-category-name{
+    width: 120px;
+}
+.pick-up-area__sub-people-counter{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.pick-up-area__sub-people-button{
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 5px 10px;
+   font-size: 16px;
+   width: 30px;
+}
+.pick-up-area__sub-people-button--minus{
+    padding-bottom: 7px;
+}
+.pick-up-area__sub-people-counter-num{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+[id='people']:checked ~ .pick-up-area__sub-people{
+    
+    top: 160px;
+    
+    opacity: 1;
+   
+    transition: top 0.5s;
+}
+.pick-up-area__sub-people--open{
+    display: flex;
+}
+
+
+@media(width<800px){
+   .pick-up-area__sub-country{
+    top:-140%
+   }
+    .pick-up-area__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        padding: 15px 40px;
+       
+    }
+    .pick-up-area__item{
+      
+        border-bottom: 1px solid grey;
+        border-left: none;
+      
+        
+    }
+    .pick-up-area__send{
+        border-bottom: none;
+        display: flex;
+        justify-content: center;
+    }
+  
+    .pick-up-area__number,.pick-up-area__time{
+        border: none;
+        
+    }
+    .pick-up-area__number-container{
+        border-left: 1px solid grey;
+    }
+    .pick-up-area__hotel{
+        border-bottom: 1px solid grey;
+    }
+    .pick-up-area__number-no-choice{
+        padding-left: 5px;
+    }
+    .pick-up-area__item-container{
+        padding:14px 0;
+    }
+    
+
+   /*  .removeDisplay{
+       display: none;
+    } */
+   /*  .pick-up-area__sub-country,.pick-up-area__sub-calendar,.pick-up-area__sub-how-days,.pick-up-area__sub-people{
+        top: 110%;
+        left:15%;
+        
+    } */
+   /*  .pick-up-area__sub-country{
+        top: 105%;
+       
+    } */
+    .pick-up-area__sub-calendar{
+        left: 6%;
+    }
+  
+}
+
+@media(width<700px){
+    .removeDisplay{
+        background-color: white;
+        z-index: -22;
+    }
+}

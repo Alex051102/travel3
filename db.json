@@ -1,0 +1,677 @@
+{
+  "hotels": [
+    {
+      "id":0,
+      "name": "Sunset Resort",
+      "country": "Египет",
+      "image": "src/assets/images/egypt.jpg",
+      "flyOut": "Москва",
+      "rating": 9.1,
+      "tours": [
+        {
+          "basePrice": 95000,
+          "time": "5 июня - 20 июня 2024",
+          "days":15,
+
+          "reasonWhy": "Идеальный выбор для семейного отдыха! Насладитесь кристально чистым морем, аквапарком прямо на территории и профессиональной анимацией для детей всех возрастов...",
+          "fastPluses": ["аквапарк", "детский клуб", "100 м до пляжа", "все включено"],
+          "availableRooms": [
+            {
+              "nameRoom": "Family Room",
+              "plusesRoom": ["максимум 4 гостя", "32 м²", "кондиционер", "детская кроватка"],
+              "addPrice": 0
+            },
+            {
+              "nameRoom": "Deluxe Suite",
+              "plusesRoom": ["панорамный вид", "джакузи", "VIP-обслуживание"],
+              "addPrice": 28000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["500 м до центра Хургады"],
+            "communication": ["такси у входа"],
+            "distanceToAirPort": ["10 км от аэропорта"]
+          },
+          "beaches": ["песчаный пляж", "зонтики и шезлонги", "бар на берегу"],
+          "about": {
+            "inGeneral": ["5 звезд", "построен в 2020", "3 бассейна"],
+            "sportAndEntertaiment": ["дайвинг-центр", "вечерние шоу"],
+            "swimmingPool": ["водные горки", "детский бассейн"],
+            "spa": ["массаж", "сауна"],
+            "services": ["Wi-Fi", "обмен валюты"],
+            "contacts": ["+20123456789", "www.sunset-resort.com"]
+          },
+          "forKids": ["детский буфет", "игровая комната"],
+          "food": {
+            "places": ["3 ресторана", "бар у бассейна"],
+            "baseFoodCategory": {
+              "pluses": ["завтраки"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["3-разовое питание", "напитки 24/7"],
+              "addPrice": 18000
+            }
+          }
+        },
+        {
+          "basePrice": 110000,
+          "time": "16 октября - 30 октября 2024",
+          "days":14,
+          "reasonWhy": "Романтический отдых для пар! Приватные ужины на берегу, спа-программы и роскошные номера с видом на закат...",
+          "fastPluses": ["спа-центр", "приватный пляж", "свадебные пакеты"],
+          "availableRooms": [
+            {
+              "nameRoom": "Honeymoon Suite",
+              "plusesRoom": ["кровать king-size", "ванны с гидромассажем", "бесплатный шампанское"],
+              "addPrice": 35000
+            }
+          ],
+         
+          "geoPosition": {
+            "near": ["15 км до центра"],
+            "communication": ["трансфер"],
+            "distanceToAirPort": ["8 км"]
+          },
+          "beaches": ["понтон для купания", "VIP-зона"],
+          "about": {
+            "inGeneral": ["бутик-отель", "10 номеров"],
+            "sportAndEntertaiment": ["катамараны", "йога"],
+            "swimmingPool": ["беседка с подогревом"],
+            "spa": ["парная", "аюрведа"],
+            "services": ["персональный батлер"],
+            "contacts": ["+20987654321", "www.sunset-romance.com"]
+          },
+          "forKids": ["дети старше 12 лет"],
+          "food": {
+            "places": ["ресторан gourmet"],
+            "baseFoodCategory": {
+              "pluses": ["полупансион"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["меню от шефа"],
+              "addPrice": 25000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":1,
+      "name": "Azure Bay",
+      "country": "Испания",
+      
+      "image": "src/assets/images/spain2.jpg",
+      "flyOut": "Санкт-Петербург",
+      "rating": 8.7,
+      "tours": [
+        {
+          "basePrice": 120000,
+          "time": "1 июня - 26 июня 2024",
+          "days":25,
+          "reasonWhy": "Откройте Испанию! Удобное расположение для экскурсий в Барселону, пляж с голубым флагом и аутентичная кухня...",
+          "fastPluses": ["до моря 50 м", "бесплатный Wi-Fi", "парковка"],
+          "availableRooms": [
+            {
+              "nameRoom": "Standard",
+              "plusesRoom": ["20 м²", "балкон", "кондиционер"],
+              "addPrice": 0
+            },
+            {
+              "nameRoom": "Ocean View",
+              "plusesRoom": ["вид на море", "кофемашина"],
+              "addPrice": 15000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["1 км до центра Салоу"],
+            "communication": ["автобус до Барселоны"],
+            "distanceToAirPort": ["90 км"]
+          },
+          "beaches": ["песчано-галечный", "спасатели", "прокат лежаков"],
+          "about": {
+            "inGeneral": ["4 звезды", "150 номеров", "реновация 2022"],
+            "sportAndEntertaiment": ["тренажерный зал", "вечерний кинотеатр"],
+            "swimmingPool": ["2 бассейна", "детский бассейн"],
+            "spa": ["массаж", "гидротерапия"],
+            "services": ["прокат авто", "экскурсии"],
+            "contacts": ["+34678901234", "www.azurebay.es"]
+          },
+          "forKids": ["детская анимация", "мини-гольф"],
+          "food": {
+            "places": ["основной ресторан", "снэк-бар"],
+            "baseFoodCategory": {
+              "pluses": ["завтрак + ужин"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["3-разовое питание", "испанская кухня"],
+              "addPrice": 12000
+            }
+          }
+        },
+        {
+          "basePrice": 135000,
+          "time": "12 июля - 16 июля 2024",
+          "days":4,
+          "reasonWhy": "Гастрономическое путешествие! Дегустация вин Каталонии, мастер-классы от шеф-повара и ужины в Michelin-ресторанах...",
+          "fastPluses": ["винный погреб", "терраса с видом", "экскурсии на винодельни"],
+          "availableRooms": [
+            {
+              "nameRoom": "Gourmet Suite",
+              "plusesRoom": ["кухонная зона", "обеденный набор", "винный холодильник"],
+              "addPrice": 40000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["20 км до винодельческого региона"],
+            "communication": ["аренда авто"],
+            "distanceToAirPort": ["100 км"]
+          },
+          "beaches": ["приватный пляж", "ресторан на берегу"],
+          "about": {
+            "inGeneral": ["бутик-отель", "20 номеров"],
+            "sportAndEntertaiment": ["велосипеды", "дегустации"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["винотерапия", "сауна"],
+            "services": ["персональный гид"],
+            "contacts": ["+34123456789", "www.azuregourmet.es"]
+          },
+          "forKids": ["дети от 16 лет"],
+          "food": {
+            "places": ["3 ресторана", "бар с сомелье"],
+            "baseFoodCategory": {
+              "pluses": ["полный пансион"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["дегустационные сеты"],
+              "addPrice": 28000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":2,
+      "name": "Tropical Paradise",
+      "country": "Таиланд",
+     
+      "image": "src/assets/images/tailand.jpg",
+      "flyOut": "Новосибирск",
+      "rating": 8.9,
+      "tours": [
+        {
+          "basePrice": 150000,
+          "time": "5 августа - 22 августа 2024",
+          "days":17,
+          "reasonWhy": "Экзотика Азии! Белоснежные пляжи Пхукета, тайский массаж и незабываемые закаты...",
+          "fastPluses": ["бесплатный трансфер", "русскоговорящий персонал", "все включено"],
+          "availableRooms": [
+            {
+              "nameRoom": "Deluxe Garden View",
+              "plusesRoom": ["35 м²", "балкон", "кондиционер"],
+              "addPrice": 0
+            },
+            {
+              "nameRoom": "Pool Villa",
+              "plusesRoom": ["частный бассейн", "зона отдыха", "бесплатный мини-бар"],
+              "addPrice": 50000
+            }
+          ],
+          "rating": 8.9,
+          "geoPosition": {
+            "near": ["5 км до Патонга"],
+            "communication": ["тук-тук у отеля"],
+            "distanceToAirPort": ["30 км"]
+          },
+          "beaches": ["песчаный", "зонтики", "бар на пляже"],
+          "about": {
+            "inGeneral": ["5 звезд", "100 вилл", "построен в 2019"],
+            "sportAndEntertaiment": ["дайвинг", "йога"],
+            "swimmingPool": ["беседка", "детский бассейн"],
+            "spa": ["тайский массаж", "обертывания"],
+            "services": ["Wi-Fi", "экскурсии"],
+            "contacts": ["+66123456789", "www.tropicalparadise.com"]
+          },
+          "forKids": ["детский клуб", "анимация"],
+          "food": {
+            "places": ["4 ресторана", "бар у бассейна"],
+            "baseFoodCategory": {
+              "pluses": ["завтраки"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["3-разовое питание", "местные напитки"],
+              "addPrice": 22000
+            }
+          }
+        },
+        {
+          "basePrice": 170000,
+          "time": "10 сентября - 25 сентября 2024",
+          "days":15,
+          "reasonWhy": "Спа-путешествие! Релакс в тропическом саду, процедуры аюрведы и виллы с приватными бассейнами...",
+          "fastPluses": ["спа-центр", "йога на закате", "романтические ужины"],
+          "availableRooms": [
+            {
+              "nameRoom": "Spa Villa",
+              "plusesRoom": ["отдельный сад", "джакузи", "спа-наборы"],
+              "addPrice": 60000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["10 км до центра"],
+            "communication": ["трансфер"],
+            "distanceToAirPort": ["35 км"]
+          },
+          "beaches": ["приватный пляж", "массаж на берегу"],
+          "about": {
+            "inGeneral": ["бутик-отель", "20 вилл"],
+            "sportAndEntertaiment": ["медитация", "велосипеды"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["аюрведа", "рефлексология"],
+            "services": ["персональный батлер"],
+            "contacts": ["+66987654321", "www.tropicalspa.com"]
+          },
+          "forKids": ["дети старше 14 лет"],
+          "food": {
+            "places": ["ресторан здорового питания"],
+            "baseFoodCategory": {
+              "pluses": ["полупансион"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["органические продукты"],
+              "addPrice": 30000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":3,
+      "name": "Alpine Dreams",
+      "country": "Австрия",
+      
+      "image": "src/assets/images/austria.jpg",
+      "flyOut": "Казань",
+      "rating": 8.8,
+      "tours": [
+        {
+          "basePrice": 140000,
+          "time": "12 мая - 26 мая 2024",
+          "days":14,
+          "reasonWhy": "Зимняя сказка в Альпах! Проживание в шале с камином, прямой доступ к трассам и апред-ски бар...",
+          "fastPluses": ["ски-пасс включен", "прокат снаряжения", "сауна"],
+          "availableRooms": [
+            {
+              "nameRoom": "Mountain View",
+              "plusesRoom": ["балкон с видом", "камин", "терраса"],
+              "addPrice": 0
+            },
+            {
+              "nameRoom": "Premium Chalet",
+              "plusesRoom": ["частный джакузи", "кухня", "бесплатный шампанское"],
+              "addPrice": 45000
+            }
+          ],
+          "rating": 8.8,
+          "geoPosition": {
+            "near": ["500 м до подъемника"],
+            "communication": ["шаттл до трасс"],
+            "distanceToAirPort": ["120 км"]
+          },
+          "beaches": ["снежный пляж", "прогулки на снегоходах"],
+          "about": {
+            "inGeneral": ["4 звезды", "30 номеров", "реновация 2023"],
+            "sportAndEntertaiment": ["лыжи", "каток"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["сауна", "массаж"],
+            "services": ["прокат снаряжения", "экскурсии"],
+            "contacts": ["+43123456789", "www.alpinedreams.at"]
+          },
+          "forKids": ["детская горка", "анимация"],
+          "food": {
+            "places": ["ресторан альпийской кухни", "бар у камина"],
+            "baseFoodCategory": {
+              "pluses": ["завтрак + обед"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["3-разовое питание", "горячие напитки"],
+              "addPrice": 18000
+            }
+          }
+        },
+        {
+          "basePrice": 160000,
+          "time": "3 июня - 28 июня 2024",
+          "days":25,
+          "reasonWhy": "Романтический горный отдых! Приватные ужины при свечах, спа-программы и номера с панорамным видом...",
+          "fastPluses": ["приватный трансфер", "цветы в номере", "фотосессия"],
+          "availableRooms": [
+            {
+              "nameRoom": "Romance Suite",
+              "plusesRoom": ["кровать с балдахином", "ванны с видом", "бесплатный прокат снаряжения"],
+              "addPrice": 35000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["1 км до центра"],
+            "communication": ["такси"],
+            "distanceToAirPort": ["110 км"]
+          },
+          "beaches": ["прогулки на санях", "прокат лыж"],
+          "about": {
+            "inGeneral": ["бутик-отель", "10 номеров"],
+            "sportAndEntertaiment": ["катание на снегоходах", "ночное катание"],
+            "swimmingPool": ["джакузи на улице"],
+            "spa": ["парная", "массаж"],
+            "services": ["персональный гид"],
+            "contacts": ["+43987654321", "www.alpineromance.at"]
+          },
+          "forKids": ["дети от 12 лет"],
+          "food": {
+            "places": ["ресторан gourmet"],
+            "baseFoodCategory": {
+              "pluses": ["полный пансион"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["дегустационные ужины"],
+              "addPrice": 25000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":4,
+      "name": "Safari Lodge",
+      "country": "Кения",
+      
+      "image": "src/assets/images/kenia2.jpg",
+      "flyOut": "Екатеринбург",
+      "rating": 9.3,
+      "tours": [
+        {
+          "basePrice": 200000,
+          "time": "8 апреля - 17 апреля 2024",
+          "days":9,
+          "reasonWhy": "Незабываемый сафари! Наблюдение за дикой природой, проживание в люксовых палатках и африканские закаты...",
+          "fastPluses": ["русскоговорящий гид", "проживание в палатках", "все включено"],
+          "availableRooms": [
+            {
+              "nameRoom": "Safari Tent",
+              "plusesRoom": ["кровать king-size", "веранда", "кондиционер"],
+              "addPrice": 0
+            },
+            {
+              "nameRoom": "Premium Tent",
+              "plusesRoom": ["частный бассейн", "джакузи", "бесплатный мини-бар"],
+              "addPrice": 30000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["30 км до заповедника Масаи-Мара"],
+            "communication": ["джип-сафари"],
+            "distanceToAirPort": ["200 км"]
+          },
+          "beaches": ["река", "прогулки на лодке"],
+          "about": {
+            "inGeneral": ["5 звезд", "20 палаток", "построен в 2020"],
+            "sportAndEntertaiment": ["сафари", "фотосафари"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["массаж", "африканские процедуры"],
+            "services": ["Wi-Fi", "экскурсии"],
+            "contacts": ["+254123456789", "www.safarilodge.com"]
+          },
+          "forKids": ["детский сафари", "анимация"],
+          "food": {
+            "places": ["ресторан африканской кухни", "бар у бассейна"],
+            "baseFoodCategory": {
+              "pluses": ["завтраки"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["3-разовое питание", "местные напитки"],
+              "addPrice": 25000
+            }
+          }
+        },
+        {
+          "basePrice": 220000,
+          "time": "8 июня - 21 июня 2024",
+          "days":13,
+          "reasonWhy": "Премиальный сафари! Приватные туры, вертолетные экскурсии и номера с панорамным видом на саванну...",
+          "fastPluses": ["вертолетный тур", "фотограф-профессионал", "шампанское на закате"],
+          "availableRooms": [
+            {
+              "nameRoom": "VIP Tent",
+              "plusesRoom": ["приватная терраса", "джакузи", "персональный гид"],
+              "addPrice": 50000
+            }
+          ],
+         
+          "geoPosition": {
+            "near": ["50 км до заповедника"],
+            "communication": ["приватный джип"],
+            "distanceToAirPort": ["180 км"]
+          },
+          "beaches": ["прогулки на слонах", "прокат квадроциклов"],
+          "about": {
+            "inGeneral": ["бутик-отель", "5 палаток"],
+            "sportAndEntertaiment": ["ночное сафари", "пешеходные туры"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["африканский массаж", "обертывания"],
+            "services": ["персональный батлер"],
+            "contacts": ["+254987654321", "www.vipsafarilodge.com"]
+          },
+          "forKids": ["дети от 10 лет"],
+          "food": {
+            "places": ["ресторан gourmet"],
+            "baseFoodCategory": {
+              "pluses": ["полный пансион"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["дегустационные ужины"],
+              "addPrice": 40000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":5,
+      "name": "Pacific Pearl",
+      "country": "США",
+     
+      "image": "src/assets/images/usa.jpg",
+      "flyOut": "Краснодар",
+      "rating": 8.6,
+      "tours": [
+        {
+          "basePrice": 180000,
+          "time": "17 ноября - 31 ноября 2024",
+          "days":14,
+          "reasonWhy": "Калифорнийские мечты! Пляж с серфингом, бассейны с подогревом и стильные номера в духе 50-х...",
+          "fastPluses": ["до моря 100 м", "русскоговорящий персонал", "парковка"],
+          "availableRooms": [
+            {
+              "nameRoom": "Retro Room",
+              "plusesRoom": ["25 м²", "ретро-интерьер", "кондиционер"],
+              "addPrice": 0
+            },
+            {
+              "nameRoom": "Ocean Suite",
+              "plusesRoom": ["панорамный вид", "кухня", "джакузи"],
+              "addPrice": 25000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["2 км до Санта-Моники"],
+            "communication": ["метро"],
+            "distanceToAirPort": ["15 км"]
+          },
+          "beaches": ["песчаный", "прокат серфов", "бар на пляже"],
+          "about": {
+            "inGeneral": ["4 звезды", "120 номеров", "реновация 2021"],
+            "sportAndEntertaiment": ["серфинг", "вечеринки"],
+            "swimmingPool": ["2 бассейна", "детский бассейн"],
+            "spa": ["массаж", "сауна"],
+            "services": ["Wi-Fi", "экскурсии"],
+            "contacts": ["+13101234567", "www.pacificpearl.com"]
+          },
+          "forKids": ["детский клуб", "анимация"],
+          "food": {
+            "places": ["3 ресторана", "бар у бассейна"],
+            "baseFoodCategory": {
+              "pluses": ["завтраки"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["3-разовое питание", "американская кухня"],
+              "addPrice": 20000
+            }
+          }
+        },
+        {
+          "basePrice": 200000,
+          "time": "2 июня - 7 июня 2024",
+          "days":5,
+          "reasonWhy": "Гастрономическое путешествие! Дегустация вин Калифорнии, мастер-классы от шеф-повара и ужины в Michelin-ресторанах...",
+          "fastPluses": ["винный погреб", "терраса с видом", "экскурсии на винодельни"],
+          "availableRooms": [
+            {
+              "nameRoom": "Gourmet Suite",
+              "plusesRoom": ["кухонная зона", "обеденный набор", "винный холодильник"],
+              "addPrice": 40000
+            }
+          ],
+         
+          "geoPosition": {
+            "near": ["30 км до винодельческого региона"],
+            "communication": ["аренда авто"],
+            "distanceToAirPort": ["20 км"]
+          },
+          "beaches": ["приватный пляж", "ресторан на берегу"],
+          "about": {
+            "inGeneral": ["бутик-отель", "20 номеров"],
+            "sportAndEntertaiment": ["велосипеды", "дегустации"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["винотерапия", "сауна"],
+            "services": ["персональный гид"],
+            "contacts": ["+13109876543", "www.pacificgourmet.com"]
+          },
+          "forKids": ["дети от 16 лет"],
+          "food": {
+            "places": ["3 ресторана", "бар с сомелье"],
+            "baseFoodCategory": {
+              "pluses": ["полный пансион"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["дегустационные сеты"],
+              "addPrice": 28000
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":6,
+      "name": "Bali Heritage",
+      "country": "Индонезия",
+     
+      "image": "src/assets/images/indonesia3.jpg",
+      "flyOut": "Ростов-на-Дону",
+      "rating": 8.9,
+      "tours": [
+        {
+          "basePrice": 160000,
+          "time": "12 декабря - 25 декабря 2024",
+          "days":13,
+          "reasonWhy": "Балийская атмосфера! Виллы с бассейнами, традиционные спа-процедуры и белоснежные пляжи...",
+          "fastPluses": ["бесплатный трансфер", "русскоговорящий персонал", "все включено"],
+          "availableRooms": [
+            {
+              "nameRoom": "Deluxe Villa",
+              "plusesRoom": ["40 м²", "частный бассейн", "балкон"],
+              "addPrice": 0
+            },
+            {
+              "nameRoom": "Royal Villa",
+              "plusesRoom": ["панорамный вид", "джакузи", "бесплатный мини-бар"],
+              "addPrice": 35000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["5 км до Семиньяка"],
+            "communication": ["такси"],
+            "distanceToAirPort": ["10 км"]
+          },
+          "beaches": ["песчаный", "зонтики", "бар на пляже"],
+          "about": {
+            "inGeneral": ["5 звезд", "50 вилл", "построен в 2018"],
+            "sportAndEntertaiment": ["йога", "дайвинг"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["баллийский массаж", "обертывания"],
+            "services": ["Wi-Fi", "экскурсии"],
+            "contacts": ["+62123456789", "www.baliheritage.com"]
+          },
+          "forKids": ["детский клуб", "анимация"],
+          "food": {
+            "places": ["4 ресторана", "бар у бассейна"],
+            "baseFoodCategory": {
+              "pluses": ["завтраки"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["3-разовое питание", "местные напитки"],
+              "addPrice": 22000
+            }
+          }
+        },
+        {
+          "basePrice": 180000,
+          "time": "1 июня - 30 июня 2024",
+          "days":29,
+          "reasonWhy": "Спа-путешествие! Релакс в тропическом саду, процедуры аюрведы и виллы с приватными бассейнами...",
+          "fastPluses": ["спа-центр", "йога на закате", "романтические ужины"],
+          "availableRooms": [
+            {
+              "nameRoom": "Spa Villa",
+              "plusesRoom": ["отдельный сад", "джакузи", "спа-наборы"],
+              "addPrice": 50000
+            }
+          ],
+          
+          "geoPosition": {
+            "near": ["10 км до центра"],
+            "communication": ["трансфер"],
+            "distanceToAirPort": ["15 км"]
+          },
+          "beaches": ["приватный пляж", "массаж на берегу"],
+          "about": {
+            "inGeneral": ["бутик-отель", "20 вилл"],
+            "sportAndEntertaiment": ["медитация", "велосипеды"],
+            "swimmingPool": ["бассейн с подогревом"],
+            "spa": ["аюрведа", "рефлексология"],
+            "services": ["персональный батлер"],
+            "contacts": ["+62987654321", "www.balispa.com"]
+          },
+          "forKids": ["дети старше 14 лет"],
+          "food": {
+            "places": ["ресторан здорового питания"],
+            "baseFoodCategory": {
+              "pluses": ["полупансион"]
+            },
+            "foodAllInClusive": {
+              "pluses": ["органические продукты"],
+              "addPrice": 30000
+            }
+          }
+        }
+      ]
+    }
+   
+  ]}
+    

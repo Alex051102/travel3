@@ -1,0 +1,32 @@
+.button{
+    border-radius: 19px;
+    padding:10px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+}
+.button--red{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 168px;
+    height: 40px;
+}
+.button--black{
+    background-color: black;
+    color: white;
+}
+.sub-width{
+    width: 145px;
+}
+
+@media(width<800px){
+    .button--red{
+        width: 38vw;
+        height: 50px;
+    }
+    .modal-mini{
+        width: 111px;
+        height: 40px;
+    }
+}
